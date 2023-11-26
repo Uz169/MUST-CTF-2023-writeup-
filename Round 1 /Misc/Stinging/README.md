@@ -12,16 +12,14 @@ Author@c!0
 дотор байгаа бүх утгуудыг цуглуулсан ба.
 
 ``
-
 import re
 file_path = 'misc.txt'
 pattern = re.compile(r'MUSTCTF{.*?}')
 with open(file_path, 'r', encoding='utf-8') as file:
-    content = file.read()
+content = file.read()
 matches = re.findall(pattern, content)
 for match in matches:
     print(match)
-    
 ``
 script -г гүйлгээд харахад ганц flag нь бусдаасаа урт байсан.
 
