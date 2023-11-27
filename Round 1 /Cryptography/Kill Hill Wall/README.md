@@ -24,13 +24,17 @@ Bruteforce хийн тайлах оролдлого хийхэд амжилт о
   <img src="https://github.com/Uz169/MUST-CTF-2023-writeup-/blob/main/Round%201%20/Cryptography/Kill%20Hill%20Wall/pics/hilla.png">
 </p>
 Comment маягаар доорх утгыг агуулсан байсан
+
 ``MTEgMzQgMTUgMjEgMzIgMjMgNDMgMjggMjE=``
 ба base64-өөс задлаж үзэхэд 
+
 `` 11 34 15 21 32 23 43 28 21 ``
+
 гэсэн утга гарна нийт 9н тоо байгаа нь Hill cipher тайлахад 3x3 матрикс байна гэсэн үг.
 Уг бодлогыг бодохдоо би хувьдаа dcode ашигласан тул доорх байдлаар хийсэн.
-анх cipher дотор a = 0 гэсэн байсан учир 
+анх cipher дотор ``a = 0`` гэсэн байсан учир 
 □ Alphabet (27 char. A=0) ABCDEFGHIJKLMNOPQRSTUVWXYZ_ 
+
 -г сонгож доорх маягаар тайлна гэсэн үг.
 <p align="center">
   <img src="https://github.com/Uz169/MUST-CTF-2023-writeup-/blob/main/Round%201%20/Cryptography/Kill%20Hill%20Wall/pics/hillb.png">
