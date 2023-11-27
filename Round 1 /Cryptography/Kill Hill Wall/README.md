@@ -6,8 +6,8 @@ Author@T6X9G
 
 ## Description
   In order to obtain the Key of the House, it was necessary to climb a high Hill
-<a href="">cipher.txt</a>
-<a href="mountain.jpeg"> </a>
+<a href="https://github.com/Uz169/MUST-CTF-2023-writeup-/blob/main/Round%201%20/Cryptography/Kill%20Hill%20Wall/pics/cipher.txt">cipher.txt</a>
+<a href="[mountain.jpeg](https://github.com/Uz169/MUST-CTF-2023-writeup-/blob/main/Round%201%20/Cryptography/Kill%20Hill%20Wall/pics/mountain.jpeg)">mountain.jpeg</a>
 
 ## Solve
 Cipher.txt ээ нээгээд харвал
@@ -21,7 +21,7 @@ a = 0
 Bruteforce хийн тайлах оролдлого хийхэд амжилт олоогүй учир хамт байсан mountain.jpeg файлыг шинжилж үзэхэд
 
 <p align="center">
-  <img src="">
+  <img src="https://github.com/Uz169/MUST-CTF-2023-writeup-/blob/main/Round%201%20/Cryptography/Kill%20Hill%20Wall/pics/hilla.png">
 </p>
 Comment маягаар доорх утгыг агуулсан байсан
 ``MTEgMzQgMTUgMjEgMzIgMjMgNDMgMjggMjE=``
@@ -33,7 +33,7 @@ Comment маягаар доорх утгыг агуулсан байсан
 □ Alphabet (27 char. A=0) ABCDEFGHIJKLMNOPQRSTUVWXYZ_ 
 -г сонгож доорх маягаар тайлна гэсэн үг.
 <p align="center">
-  <img src="">
+  <img src="https://github.com/Uz169/MUST-CTF-2023-writeup-/blob/main/Round%201%20/Cryptography/Kill%20Hill%20Wall/pics/hillb.png">
 </p>
 
 `` Flag : HILLCIPHERISINTERESTINGANDADVENTUROUS__ `` 
