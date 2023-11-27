@@ -27,5 +27,5 @@ Spectrogram аар харахад доод хэсэгт morse код үзэгд�
   <img src="https://github.com/Uz169/MUST-CTF-2023-writeup-/blob/main/Round%201%20/Steganography/Never%20Give%20up/picture/aa2.png">
 </p>
 
-'' Flag: MUSTCTF{D01N4UD105T3G15FUN} ''
+``Flag: MUSTCTF{D01N4UD105T3G15FUN}``
 
