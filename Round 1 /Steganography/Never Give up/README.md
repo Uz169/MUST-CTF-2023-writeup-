@@ -13,18 +13,18 @@ Author@c!0
 нэг бол сонсож байгаад бичиж болно эсвэл Sonic visualizer tool ээр бодох боломжтой.
 
 <p align="center">
-  <img src="">
+  <img src="https://github.com/Uz169/MUST-CTF-2023-writeup-/blob/main/Round%201%20/Steganography/Never%20Give%20up/picture/aa.png">
 </p>
 Sonic visualizer -р орж үзэхэд ингэж харагдах ба
 
 <p align="center">
-  <img src="">
+  <img src="https://github.com/Uz169/MUST-CTF-2023-writeup-/blob/main/Round%201%20/Steganography/Never%20Give%20up/picture/aa1.png">
 </p>
 
 Spectrogram аар харахад доод хэсэгт morse код үзэгдэнэ.
 Үүнийг дуйралгаж тэмдэглэж аваад morse decoder -оор харахад флаг харагдана.
 <p align="center">
-  <img src="">
+  <img src="https://github.com/Uz169/MUST-CTF-2023-writeup-/blob/main/Round%201%20/Steganography/Never%20Give%20up/picture/aa2.png">
 </p>
 
 '' Flag: MUSTCTF{D01N4UD105T3G15FUN} ''
