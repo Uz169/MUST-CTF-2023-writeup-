@@ -12,7 +12,7 @@ Author@bilgee
 ## Solve
 Юун түрүүнд бидэнд crypto_sensei.py өгөгдсөн ба орж үзэхэд
 
-``
+```
 from secret import tug
 def encr(msg, x, y): 
     msg2 = int.from_bytes(msg, byteorder="big")
@@ -25,7 +25,7 @@ with open("ct.txt", "w") as f:
     f.write(encd) 
 print("your_ticket", encd) 
 your_ticket='0x5dc3e1d09a42233cc160a1c5bba4100f2556b5ef933d20c5ca' 
-``
+```
 <br><br>
 
 гэсэн python script байх ба ерөнхийдөө RSA гэдэг нь харагдана.
@@ -56,7 +56,7 @@ q = 1029224947942998075080348647219
 Үүний дараа 
 "phi = (P - 1) * (Q - 1)" томьёогоор phi-г олоод дараагаар нь d буюу private key-г олох ёстой 
 
-``
+```
 import gmpy2
 import binascii
 <br>
@@ -80,7 +80,7 @@ plaintext_bytes = bytes.fromhex(plaintext_hex[2:])  # Remove '0x' prefix
 
 print("Decrypted Plaintext:", plaintext_bytes.decode('utf-8'))
 
-``
+```
 Script-н үр дүнд da59ec40ce31b9c46ef2a8ff5 гэсэн утга гарах ба 
 <br>
 <br>
