@@ -26,10 +26,12 @@ with open("ct.txt", "w") as f:
 print("your_ticket", encd)
 your_ticket='0x5dc3e1d09a42233cc160a1c5bba4100f2556b5ef933d20c5ca'
 ``
-<br>
+<br><br>
+
     гэсэн python script байх ба ерөнхийдөө RSA гэдэг нь харагдана.
 your_ticket гэдэг нь RSA -н C буюу Cipheredtext-тэй тэнцүү гэхдээ hex утгаар байсан болхоор int болгох хэрэгтэй.
-<br>
+<br><br>
+
 ``
 hex_string = "0x5dc3e1d09a42233cc160a1c5bba4100f2556b5ef933d20c5ca "
 decimal_number = int(hex_string, 16)
