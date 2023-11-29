@@ -13,29 +13,29 @@ Author@bilgee
 Юун түрүүнд бидэнд crypto_sensei.py өгөгдсөн ба орж үзэхэд
 
 ``
-from secret import tug
-def encr(msg, x, y):
-    msg2 = int.from_bytes(msg, byteorder="big")
-    ct = pow(msg2, y, x)
-    return ct
-chosen = 65537
-seat_token = 882564595536224140639625987659416029426239230804614613279163
-encd = hex(encr(tug, seat_token, chosen))[2:]
-with open("ct.txt", "w") as f:
-    f.write(encd)
-print("your_ticket", encd)
-your_ticket='0x5dc3e1d09a42233cc160a1c5bba4100f2556b5ef933d20c5ca'
+from secret import tug <br>
+def encr(msg, x, y): <br>
+    msg2 = int.from_bytes(msg, byteorder="big") <br>
+    ct = pow(msg2, y, x) <br>
+    return ct <br>
+chosen = 65537 <br>
+seat_token = 882564595536224140639625987659416029426239230804614613279163 <br>
+encd = hex(encr(tug, seat_token, chosen))[2:] <br>
+with open("ct.txt", "w") as f: <br>
+    f.write(encd) <br>
+print("your_ticket", encd) <br>
+your_ticket='0x5dc3e1d09a42233cc160a1c5bba4100f2556b5ef933d20c5ca' <br>
 ``
 <br><br>
 
-    гэсэн python script байх ба ерөнхийдөө RSA гэдэг нь харагдана.
+гэсэн python script байх ба ерөнхийдөө RSA гэдэг нь харагдана.
 your_ticket гэдэг нь RSA -н C буюу Cipheredtext-тэй тэнцүү гэхдээ hex утгаар байсан болхоор int болгох хэрэгтэй.
 <br><br>
 
 ``
-hex_string = "0x5dc3e1d09a42233cc160a1c5bba4100f2556b5ef933d20c5ca "
-decimal_number = int(hex_string, 16)
-print(decimal_number)  #588573476244494326791251181810924652076731008274212604397002
+hex_string = "0x5dc3e1d09a42233cc160a1c5bba4100f2556b5ef933d20c5ca " <br>
+decimal_number = int(hex_string, 16) <br>
+print(decimal_number)  #588573476244494326791251181810924652076731008274212604397002 <br>
 ``
 <br>
 
