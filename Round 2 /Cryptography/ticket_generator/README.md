@@ -26,14 +26,17 @@ with open("ct.txt", "w") as f:
 print("your_ticket", encd)
 your_ticket='0x5dc3e1d09a42233cc160a1c5bba4100f2556b5ef933d20c5ca'
 ``
+<br>
     гэсэн python script байх ба ерөнхийдөө RSA гэдэг нь харагдана.
-
 your_ticket гэдэг нь RSA -н C буюу Cipheredtext-тэй тэнцүү гэхдээ hex утгаар байсан болхоор int болгох хэрэгтэй.
+<br>
 ``
 hex_string = "0x5dc3e1d09a42233cc160a1c5bba4100f2556b5ef933d20c5ca "
 decimal_number = int(hex_string, 16)
 print(decimal_number)  #588573476244494326791251181810924652076731008274212604397002
 ``
+<br>
+
 Үүний дараа утгуудаа цуглуулах ба 
 N = 882564595536224140639625987659416029426239230804614613279163
 e = 65537
