@@ -13,18 +13,18 @@ Author@bilgee
 Юун түрүүнд бидэнд crypto_sensei.py өгөгдсөн ба орж үзэхэд
 
 ``
-from secret import tug <br>
-def encr(msg, x, y): <br>
-    msg2 = int.from_bytes(msg, byteorder="big") <br>
-    ct = pow(msg2, y, x) <br>
-    return ct <br>
-chosen = 65537 <br>
-seat_token = 882564595536224140639625987659416029426239230804614613279163 <br>
-encd = hex(encr(tug, seat_token, chosen))[2:] <br>
-with open("ct.txt", "w") as f: <br>
-    f.write(encd) <br>
-print("your_ticket", encd) <br>
-your_ticket='0x5dc3e1d09a42233cc160a1c5bba4100f2556b5ef933d20c5ca' <br>
+from secret import tug
+def encr(msg, x, y): 
+    msg2 = int.from_bytes(msg, byteorder="big")
+    ct = pow(msg2, y, x) 
+    return ct 
+chosen = 65537 
+seat_token = 882564595536224140639625987659416029426239230804614613279163 
+encd = hex(encr(tug, seat_token, chosen))[2:] 
+with open("ct.txt", "w") as f: 
+    f.write(encd) 
+print("your_ticket", encd) 
+your_ticket='0x5dc3e1d09a42233cc160a1c5bba4100f2556b5ef933d20c5ca' 
 ``
 <br><br>
 
@@ -83,7 +83,9 @@ print("Decrypted Plaintext:", plaintext_bytes.decode('utf-8'))
 ``
 Script-н үр дүнд da59ec40ce31b9c46ef2a8ff5 гэсэн утга гарах ба 
 <br>
-Flag нь ``MUSTCTF{da59ec40ce31b9c46ef2a8ff5}``
+<br>
+
+Flag нь MUSTCTF{da59ec40ce31b9c46ef2a8ff5}
 
 
 
