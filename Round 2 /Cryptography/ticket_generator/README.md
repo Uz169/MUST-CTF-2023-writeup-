@@ -28,9 +28,7 @@ encd = hex(encr(tug, seat_token, chosen))[2:]
 with open("ct.txt", "w") as f:
     f.write(encd)
 print("your_ticket", encd)
-
-# your_ticket='0x5dc3e1d09a42233cc160a1c5bba4100f2556b5ef933d20c5ca'
-
+your_ticket='0x5dc3e1d09a42233cc160a1c5bba4100f2556b5ef933d20c5ca'
 ``
 <br>
 гэсэн python script байх ба ерөнхийдөө RSA гэдэг нь харагдана.
