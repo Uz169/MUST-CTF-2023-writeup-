@@ -52,21 +52,22 @@ q = 1029224947942998075080348647219
 ``
 import gmpy2
 import binascii
-
+<br>
 N = 882564595536224140639625987659416029426239230804614613279163
 E = 65537
 C = 588573476244494326791251181810924652076731008274212604397002
 P = 857504083339712752489993810777
 Q = 1029224947942998075080348647219
+<br>
 
-# Calculate the private exponent D
+#Calculate the private exponent D
 phi = (P - 1) * (Q - 1)
 D = gmpy2.invert(E, phi)
 
-# Decrypt the ciphertext
+#Decrypt the ciphertext
 M = pow(C, D, N)
 
-# Convert the plaintext to bytes
+#Convert the plaintext to bytes
 plaintext_hex = hex(M)
 plaintext_bytes = bytes.fromhex(plaintext_hex[2:])  # Remove '0x' prefix
 
@@ -74,6 +75,7 @@ print("Decrypted Plaintext:", plaintext_bytes.decode('utf-8'))
 
 ``
 Script-н үр дүнд da59ec40ce31b9c46ef2a8ff5 гэсэн утга гарах ба 
+<br>
 Flag нь ``MUSTCTF{da59ec40ce31b9c46ef2a8ff5}``
 
 
